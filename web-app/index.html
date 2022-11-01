@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>I am pro</title>
+</head>
+
+<body>
+
+    <input type="text" value="address" id = 'cbal'>
+    <button id="bal" onclick="CheckBalance()">Check Balance</button>
+
+    <h5></h5>
+
+    
+    <button onclick="getDeployer()">get Deployer addr</button>
+    <div></div>
+
+    <br>
+    <br>
+
+    
+
+    <input type="text" value="address" id="tran">
+    <input type="text" value="How much ethers" id="val">
+    <!-- <input type="text" value="privateKey"> -->
+    <button onclick='transact()'>Send</button>
+    <div></div>
+
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>  
+    <script src="script.js"></script>
+
+
+
+
+    
+</body>
+
+</html>
